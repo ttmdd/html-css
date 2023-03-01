@@ -140,3 +140,43 @@
     }
 
 }
+
+/* mobile phone size */
+@media only screen and (max-width: 600px) {
+
+    #part-1 {
+        row-gap: 20px;
+    }
+
+    #part-1-1 {
+        flex-direction: column; 
+        row-gap: 20px;
+    }
+
+    #part-1-1a, #part-1-1b, #part-1-1c {
+        width: 100%;
+    }
+
+    #part-2 {
+        background-color: rgb(218, 204, 84);;
+
+    }
+
+    #part-2-1 {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .part-2-1-half {
+        width: 100%;
+    }
+
+    #part-2-2 {
+        background-color: rgb(180, 87, 103);
+    }
+    
+    .part-2-2-full {
+        background-color: rgb(204, 204, 151);
+    }
+    
+}
